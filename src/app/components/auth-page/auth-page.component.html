@@ -1,0 +1,40 @@
+<form *ngIf="login" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div class="formLogin">
+        <h1>Log In</h1>
+        <div class="username">
+            <label htmlFor="username">Email</label>
+            <input pInputText formControlName="email" />
+        </div>
+
+        <div class="username">
+
+            <label htmlFor="username">Password</label>
+            <input type="password" pInputText formControlName="password" />
+
+        </div>
+        <button type="submit" pButton pRipple> Sign in</button>
+        <button pButton pRipple (click)="switch()"> Register</button>
+    </div>
+</form>
+
+<form *ngIf="!login" [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+    <div class="formLogin">
+        <h1>Register</h1>
+        <div class="username">
+            <label htmlFor="username">Email</label>
+            <input pInputText formControlName="email" />
+        </div>
+
+        <div class="username">
+            <label htmlFor="username">Password</label>
+            <input type="password" pInputText formControlName="password" />
+        </div>
+
+        <div class="username">
+            <label htmlFor="username">Confirm Password</label>
+            <input type="password" pInputText formControlName="confirmPassword" />
+        </div>
+        <button type="submit" pButton pRipple> Confirm</button>
+        <button pButton pRipple (click)="switch()"> Log in</button>
+    </div>
+</form>

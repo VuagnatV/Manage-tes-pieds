@@ -1,0 +1,35 @@
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    gap: 10px;
+}
+
+/* Conteneur principal du formulaire */
+.content-wrapper {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+}
+
+.formLogin {
+    padding: 50px;
+    gap: 30px;
+    margin: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

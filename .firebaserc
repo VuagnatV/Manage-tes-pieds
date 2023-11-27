@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "taskmaster-1e198": {
+      "hosting": {
+        "TaskMaster": [
+          "taskmaster-1e198"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "taskmaster-1e198"
+  }
+}

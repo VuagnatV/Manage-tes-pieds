@@ -1,0 +1,11 @@
+:host {
+    display: block;
+}
+
+.item {
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border: solid;
+    border-width: 0.2px;
+}
